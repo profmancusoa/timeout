@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build",
+		"build": "vite build && echo timeout.mancusoa.it > docs/CNAME",
 		"preview": "vite preview"
 	},
 	"devDependencies": {
